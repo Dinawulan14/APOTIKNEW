@@ -23,7 +23,7 @@ namespace APOTIKNEW
             double NamaObat = Convert.ToDouble(tbnamaobat.Text);
             double HargaObat = Convert.ToDouble(tbhargaobat.Text);
             double stokobat= Convert.ToDouble(tbstokobat.Text);
-            double JenisObat = Convert.ToDouble(tbjenisobat.Text);
+            double JenisObat = Convert.ToDouble(tbjenisobat.Text); 
         }
 
         private void InputObat_Load(object sender, EventArgs e)
