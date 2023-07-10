@@ -22,15 +22,27 @@ namespace APOTIKNEW
             double IDObat = Convert.ToDouble(tbidobat.Text);
             double NamaObat = Convert.ToDouble(tbnamaobat.Text);
             double HargaObat = Convert.ToDouble(tbhargaobat.Text);
-            double stokobat= Convert.ToDouble(tbstokobat.Text);
-            double JenisObat = Convert.ToDouble(tbjenisobat.Text); 
+            double stokobat = Convert.ToDouble(tbstokobat.Text);
+            double JenisObat = Convert.ToDouble(tbjenisobat.Text);
         }
 
         private void InputObat_Load(object sender, EventArgs e)
-        { 
-            // TODO: This line of code loads data into the 'apotikNEWDataSet.Obat' table. You can move, or remove it, as needed.
-            this.obatTableAdapter.Fill(this.apotikNEWDataSet.Obat);
-
+        {
+            dataGridView1.Rows.Add(tbidobat.Text, tbnamaobat.Text, tbhargaobat.Text, tbstokobat.Text, cbxjenisobat.Text);
+            tbidobat.Clear();
+            tbnamaobat.Clear();
+            tbhargaobat.Clear();
+            cbxjenisobat.Text = "";
+        }
+        private void cbxjensisobat_SelectedIndexChanged(object sender, EventArgs e) 
+        {
+            if (cbxjenisobat.Text == "Jenis Obat")
+            {
+                cbxjenisobat.Items.Clear();
+                cbxjenisobat.Items.Add("Tablet");
+                cbxjenisobat.Items.Add("Kapsul");
+                cbxjenisobat.Items.Add("Sirup");
+            }
         }
     }
 }
