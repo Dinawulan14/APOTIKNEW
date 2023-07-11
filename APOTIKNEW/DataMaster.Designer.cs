@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DataMaster));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.dataPelangganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataPelangganToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.inputObatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.datapelangganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,42 +43,44 @@
             this.toolStripDropDownButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1174, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(800, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // dataPelangganToolStripMenuItem
-            // 
-            this.dataPelangganToolStripMenuItem.Name = "dataPelangganToolStripMenuItem";
-            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.dataPelangganToolStripMenuItem.Text = "Data Obat";
-            // 
-            // dataPelangganToolStripMenuItem1
-            // 
-            this.dataPelangganToolStripMenuItem1.Name = "dataPelangganToolStripMenuItem1";
-            this.dataPelangganToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.dataPelangganToolStripMenuItem1.Text = "Data Pelanggan";
-            // 
             // toolStripDropDownButton1
             // 
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dataPelangganToolStripMenuItem,
-            this.dataPelangganToolStripMenuItem1});
+            this.inputObatToolStripMenuItem,
+            this.datapelangganToolStripMenuItem});
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(34, 24);
-            this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(100, 24);
+            this.toolStripDropDownButton1.Text = "DataMaster";
+            // 
+            // inputObatToolStripMenuItem
+            // 
+            this.inputObatToolStripMenuItem.Name = "inputObatToolStripMenuItem";
+            this.inputObatToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.inputObatToolStripMenuItem.Text = "Input Obat";
+            this.inputObatToolStripMenuItem.Click += new System.EventHandler(this.inputObatToolStripMenuItem_Click);
+            // 
+            // datapelangganToolStripMenuItem
+            // 
+            this.datapelangganToolStripMenuItem.Name = "datapelangganToolStripMenuItem";
+            this.datapelangganToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.datapelangganToolStripMenuItem.Text = "Data Pelanggan";
+            this.datapelangganToolStripMenuItem.Click += new System.EventHandler(this.datapelangganToolStripMenuItem_Click);
             // 
             // DataMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 536);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.toolStrip1);
             this.Name = "DataMaster";
-            this.Text = "Data Master";
+            this.Text = "DataMaster";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -90,8 +92,7 @@
 
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
-        private System.Windows.Forms.ToolStripMenuItem dataPelangganToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataPelangganToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem inputObatToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem datapelangganToolStripMenuItem;
     }
 }
-

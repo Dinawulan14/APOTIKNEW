@@ -56,17 +56,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ApotikNEWDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DataMaster.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DataMaster.Designer.cs">
-      <DependentUpon>DataMaster.cs</DependentUpon>
-    </Compile>
     <Compile Include="DataPelanggan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DataPelanggan.Designer.cs">
       <DependentUpon>DataPelanggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataMaster.Designer.cs">
+      <DependentUpon>DataMaster.cs</DependentUpon>
     </Compile>
     <Compile Include="InputObat.cs">
       <SubType>Form</SubType>

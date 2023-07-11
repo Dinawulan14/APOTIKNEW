@@ -16,5 +16,19 @@ namespace APOTIKNEW
         {
             InitializeComponent();
         }
+
+        private void inputObatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InputObat fm = new InputObat();
+            fm.Show();
+            this.Hide();
+        }
+
+        private void datapelangganToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataPelanggan fo = new DataPelanggan();
+            fo.Show();
+            this.Hide();
+        }
     }
 }
