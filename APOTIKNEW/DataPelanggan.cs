@@ -65,7 +65,7 @@ namespace APOTIKNEW
             {
                 MessageBox.Show("Masukkan alamat pelanggan", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
+             
         }
     }
 }
