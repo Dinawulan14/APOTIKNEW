@@ -32,7 +32,8 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.inputObatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.datapelangganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataPelangganToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataPengelolaanStokToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,8 @@
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inputObatToolStripMenuItem,
-            this.datapelangganToolStripMenuItem});
+            this.dataPelangganToolStripMenuItem,
+            this.dataPengelolaanStokToolStripMenuItem});
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
             this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
@@ -62,16 +64,23 @@
             // inputObatToolStripMenuItem
             // 
             this.inputObatToolStripMenuItem.Name = "inputObatToolStripMenuItem";
-            this.inputObatToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.inputObatToolStripMenuItem.Text = "Input Obat";
+            this.inputObatToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.inputObatToolStripMenuItem.Text = "InputObat";
             this.inputObatToolStripMenuItem.Click += new System.EventHandler(this.inputObatToolStripMenuItem_Click);
             // 
-            // datapelangganToolStripMenuItem
+            // dataPelangganToolStripMenuItem
             // 
-            this.datapelangganToolStripMenuItem.Name = "datapelangganToolStripMenuItem";
-            this.datapelangganToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.datapelangganToolStripMenuItem.Text = "Data Pelanggan";
-            this.datapelangganToolStripMenuItem.Click += new System.EventHandler(this.datapelangganToolStripMenuItem_Click);
+            this.dataPelangganToolStripMenuItem.Name = "dataPelangganToolStripMenuItem";
+            this.dataPelangganToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.dataPelangganToolStripMenuItem.Text = "DataPelanggan";
+            this.dataPelangganToolStripMenuItem.Click += new System.EventHandler(this.dataPelangganToolStripMenuItem_Click);
+            // 
+            // dataPengelolaanStokToolStripMenuItem
+            // 
+            this.dataPengelolaanStokToolStripMenuItem.Name = "dataPengelolaanStokToolStripMenuItem";
+            this.dataPengelolaanStokToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
+            this.dataPengelolaanStokToolStripMenuItem.Text = "DataPengelolaanStok";
+            this.dataPengelolaanStokToolStripMenuItem.Click += new System.EventHandler(this.dataPengelolaanStokToolStripMenuItem_Click);
             // 
             // DataMaster
             // 
@@ -93,6 +102,7 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton1;
         private System.Windows.Forms.ToolStripMenuItem inputObatToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem datapelangganToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataPelangganToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataPengelolaanStokToolStripMenuItem;
     }
 }

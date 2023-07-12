@@ -58,7 +58,7 @@ namespace APOTIKNEW
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bernard MT Condensed", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(335, 23);
+            this.label1.Location = new System.Drawing.Point(359, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(138, 21);
             this.label1.TabIndex = 0;
@@ -148,6 +148,9 @@ namespace APOTIKNEW
             "L",
             "P"});
             this.cbxjeniskelamin.FormattingEnabled = true;
+            this.cbxjeniskelamin.Items.AddRange(new object[] {
+            "L",
+            "P"});
             this.cbxjeniskelamin.Location = new System.Drawing.Point(188, 204);
             this.cbxjeniskelamin.Name = "cbxjeniskelamin";
             this.cbxjeniskelamin.Size = new System.Drawing.Size(121, 24);
@@ -163,7 +166,7 @@ namespace APOTIKNEW
             this.jeniskelaminDataGridViewTextBoxColumn,
             this.alamatPelangganDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.pelangganBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(229, 299);
+            this.dataGridView1.Location = new System.Drawing.Point(231, 367);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -216,7 +219,7 @@ namespace APOTIKNEW
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(972, 450);
+            this.ClientSize = new System.Drawing.Size(972, 552);
             this.Controls.Add(this.btnsave);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cbxjeniskelamin);

@@ -68,6 +68,12 @@
     <Compile Include="DataMaster.Designer.cs">
       <DependentUpon>DataMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataPengelolaanStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPengelolaanStok.Designer.cs">
+      <DependentUpon>DataPengelolaanStok.cs</DependentUpon>
+    </Compile>
     <Compile Include="InputObat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DataPelanggan.resx">
       <DependentUpon>DataPelanggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPengelolaanStok.resx">
+      <DependentUpon>DataPengelolaanStok.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InputObat.resx">
       <DependentUpon>InputObat.cs</DependentUpon>

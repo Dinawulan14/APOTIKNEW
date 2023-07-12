@@ -24,10 +24,17 @@ namespace APOTIKNEW
             this.Hide();
         }
 
-        private void datapelangganToolStripMenuItem_Click(object sender, EventArgs e)
+        private void dataPelangganToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DataPelanggan fo = new DataPelanggan();
             fo.Show();
+            this.Hide();
+        }
+
+        private void dataPengelolaanStokToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DataPengelolaanStok fr = new DataPengelolaanStok();
+            fr.Show();
             this.Hide();
         }
     }
