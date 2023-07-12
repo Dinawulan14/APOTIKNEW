@@ -12,6 +12,7 @@ namespace APOTIKNEW
 {
     public partial class DataPelanggan : Form
     {
+
         public DataPelanggan()
         {
             InitializeComponent();
@@ -64,7 +65,7 @@ namespace APOTIKNEW
             {
                 MessageBox.Show("Masukkan alamat pelanggan", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-       
+
         }
     }
 }

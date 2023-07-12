@@ -13,11 +13,10 @@ namespace APOTIKNEW
 {
     public partial class InputObat : Form
     {
-
         public InputObat()
         {
             InitializeComponent();
-        }
+        }  
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -27,12 +26,6 @@ namespace APOTIKNEW
             double stokobat = Convert.ToDouble(txtstokobat.Text);
             double JenisObat = Convert.ToDouble(jenisobat.Text);
         }
-
-        private void refreshform()
-        {
-            throw new NotImplementedException();
-        }
-
         private void InputObat_Load(object sender, EventArgs e)
         {
             dataGridView1.Rows.Add(txtidobat.Text, txtnamaobat.Text, txthargaobat.Text, txtstokobat.Text, cbxjenisobat.Text);
