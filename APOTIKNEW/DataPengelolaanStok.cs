@@ -63,7 +63,7 @@ namespace APOTIKNEW
             double nohp = Convert.ToDouble(txtnohp.Text);
             double alamatapoteker = Convert.ToDouble(txtalamatapoteker.Text);
         }
-
+         
         private void label6_Click(object sender, EventArgs e)
         {
             double idkaryawan = Convert.ToDouble(txtidkaryawan.Text);
