@@ -84,6 +84,9 @@
             // cbxjeniskelamin
             // 
             this.cbxjeniskelamin.FormattingEnabled = true;
+            this.cbxjeniskelamin.Items.AddRange(new object[] {
+            "L",
+            "P"});
             this.cbxjeniskelamin.Location = new System.Drawing.Point(204, 122);
             this.cbxjeniskelamin.Name = "cbxjeniskelamin";
             this.cbxjeniskelamin.Size = new System.Drawing.Size(60, 31);
@@ -191,21 +194,21 @@
             // 
             this.txtnoohp.Location = new System.Drawing.Point(238, 148);
             this.txtnoohp.Name = "txtnoohp";
-            this.txtnoohp.Size = new System.Drawing.Size(100, 30);
+            this.txtnoohp.Size = new System.Drawing.Size(203, 30);
             this.txtnoohp.TabIndex = 5;
             // 
             // txtnamakaryawan
             // 
             this.txtnamakaryawan.Location = new System.Drawing.Point(238, 97);
             this.txtnamakaryawan.Name = "txtnamakaryawan";
-            this.txtnamakaryawan.Size = new System.Drawing.Size(100, 30);
+            this.txtnamakaryawan.Size = new System.Drawing.Size(203, 30);
             this.txtnamakaryawan.TabIndex = 4;
             // 
             // txtidkaryawan
             // 
             this.txtidkaryawan.Location = new System.Drawing.Point(238, 45);
             this.txtidkaryawan.Name = "txtidkaryawan";
-            this.txtidkaryawan.Size = new System.Drawing.Size(100, 30);
+            this.txtidkaryawan.Size = new System.Drawing.Size(109, 30);
             this.txtidkaryawan.TabIndex = 3;
             // 
             // label8
@@ -261,14 +264,14 @@
             // 
             this.txtnohpp.Location = new System.Drawing.Point(238, 144);
             this.txtnohpp.Name = "txtnohpp";
-            this.txtnohpp.Size = new System.Drawing.Size(100, 30);
+            this.txtnohpp.Size = new System.Drawing.Size(222, 30);
             this.txtnohpp.TabIndex = 5;
             // 
             // txtalamatsupplier
             // 
             this.txtalamatsupplier.Location = new System.Drawing.Point(238, 100);
             this.txtalamatsupplier.Name = "txtalamatsupplier";
-            this.txtalamatsupplier.Size = new System.Drawing.Size(100, 30);
+            this.txtalamatsupplier.Size = new System.Drawing.Size(222, 30);
             this.txtalamatsupplier.TabIndex = 4;
             // 
             // txtidsupplier
