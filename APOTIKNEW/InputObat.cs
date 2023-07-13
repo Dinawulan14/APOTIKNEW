@@ -7,32 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 
 namespace APOTIKNEW
 {
     public partial class InputObat : Form
     {
-        private string stringConnection = "Data Source=LAPTOP-CE2MB8Q1\\DINAWULAN;Initial Catalog=ApotikNEW;User ID=sa;Password=12345";
-        private SqlConnection koneksi;
+
         public InputObat()
         {
-            koneksi = new SqlConnection(stringConnection);
-            refreshfrom();
+            InitializeComponent();
 
-        }
-
-        private void refreshfrom()
-        {
-            txtidobat.Enabled = false;
-            txtnamaobat.Enabled = false;
-            txthargaobat.Enabled = false;
-            txtstokobat.Enabled = false;
-            cbxjenisobat.Enabled = false;
-            btninput.Enabled = false;
-            clearBinding();
-            InputObat_Load();
         }
 
         private void InputObat_Load()
@@ -44,15 +29,6 @@ namespace APOTIKNEW
             cbxjenisobat.Text = "";
         }
 
-        private void clearBinding()
-        {
-            this.txtidobat.DataBindings.Clear();
-            this.txtnamaobat.DataBindings.Clear();
-            this.txthargaobat.DataBindings.Clear();
-            this.txtstokobat.DataBindings.Clear();
-            this.cbxjenisobat.DataBindings.Clear();
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
             double IDObat = Convert.ToDouble(txtidobat.Text);
@@ -61,14 +37,11 @@ namespace APOTIKNEW
             double stokobat = Convert.ToDouble(txtstokobat.Text);
             double JenisObat = Convert.ToDouble(jenisobat.Text);
         }
-        private void InputObat_Load(object sender, EventArgs e)
+        private void refreshform()
         {
-            dataGridView1.Rows.Add(txtidobat.Text, txtnamaobat.Text, txthargaobat.Text, txtstokobat.Text, cbxjenisobat.Text);
-            txtidobat.Clear();
-            txtnamaobat.Clear();
-            txthargaobat.Clear();
-            cbxjenisobat.Text = "";
+            throw new NotImplementedException();
         }
+
         private void cbxjensisobat_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbxjenisobat.Text == "Jenis Obat")

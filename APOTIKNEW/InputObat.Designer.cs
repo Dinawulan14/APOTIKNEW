@@ -255,7 +255,6 @@
             this.Controls.Add(this.idobat);
             this.Name = "InputObat";
             this.Text = "Input Obat";
-            this.Load += new System.EventHandler(this.InputObat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.obatBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.apotikNEWDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
